@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Cabins | Shawnee Forest Cabin Rentals - Southern Illinois Vacation Rentals</title>
+  <meta name="description" content="Browse our collection of cozy Shawnee National Forest cabins. Filter by amenities, guest count, and price. Hot tubs, fireplaces, and forest views available.">
+  <link rel="canonical" href="https://shawneeforestrentalcabins.com/cabins.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 2L6 14h4l-5 8h6l-5 8h22l-5-8h6l-5-8h4L16 2zm0 4l5.5 8H18l4 6h-3l4 6H9l4-6H10l4-6h-2.5L16 6z"/></svg>
+        Shawnee Forest Cabins
+      </a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <button class="mobile-close" id="nav-close" aria-label="Close menu">&times;</button>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="cabins.html" class="nav-link active">Cabins</a></li>
+          <li><a href="location.html" class="nav-link">Location</a></li>
+          <li><a href="activities.html" class="nav-link">Activities</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="contact.html" class="nav-link nav-book-btn">Book Now</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <p class="breadcrumb"><a href="index.html">Home</a> / Cabins</p>
+    <h1>Our Cabins &amp; Accommodations</h1>
+    <p>Find your perfect Shawnee Forest retreat. Every cabin offers privacy, comfort, and easy access to nature.</p>
+  </section>
+
+  <!-- Filter & Listings -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar animate-in">
+        <div class="filter-group">
+          <label for="filter-checkin">Check In</label>
+          <input type="date" id="filter-checkin">
+        </div>
+        <div class="filter-group">
+          <label for="filter-checkout">Check Out</label>
+          <input type="date" id="filter-checkout">
+        </div>
+        <div class="filter-group">
+          <label for="filter-guests">Guests</label>
+          <select id="filter-guests">
+            <option value="">Any</option>
+            <option value="2">1-2 Guests</option>
+            <option value="4">3-4 Guests</option>
+            <option value="6">5-6 Guests</option>
+            <option value="8">7+ Guests</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-amenities">Amenities</label>
+          <select id="filter-amenities">
+            <option value="">All Amenities</option>
+            <option value="hot-tub">Hot Tub</option>
+            <option value="fireplace">Fireplace</option>
+            <option value="pet-friendly">Pet Friendly</option>
+            <option value="game-room">Game Room</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-price">Price Range</label>
+          <select id="filter-price">
+            <option value="">Any Price</option>
+            <option value="budget">Under $150/night</option>
+            <option value="mid">$150 - $200/night</option>
+            <option value="premium">$200+/night</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Cabin 1 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #2d5016, #4a7a2e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+            <span class="card-badge">Most Popular</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Whispering Pines Lodge</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 6</span>
+              <span>3 Bed / 2 Bath</span>
+            </div>
+            <p>A spacious log cabin surrounded by towering pines with wraparound deck and private hot tub.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Fireplace</span>
+              <span class="amenity-tag">WiFi</span>
+              <span class="amenity-tag">Full Kitchen</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$189 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cabin 2 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #3a6b1e, #6aaa4e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+            <span class="card-badge">Romantic</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Cedar Creek Retreat</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 2</span>
+              <span>1 Bed / 1 Bath</span>
+            </div>
+            <p>An intimate cabin for couples, tucked along a quiet creek with covered porch swing and fire pit.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Fire Pit</span>
+              <span class="amenity-tag">WiFi</span>
+              <span class="amenity-tag">King Bed</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$149 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cabin 3 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #1a3a0a, #4a7a2e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+            <span class="card-badge">Family Favorite</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Eagle's Nest Treehouse</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 8</span>
+              <span>4 Bed / 2 Bath</span>
+            </div>
+            <p>A unique elevated cabin among the treetops with panoramic views and a family game room.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Game Room</span>
+              <span class="amenity-tag">WiFi</span>
+              <span class="amenity-tag">Pet Friendly</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$229 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cabin 4 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #2a5e12, #5a9a3e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+            <span class="card-badge">New</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Hickory Hollow Cabin</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 4</span>
+              <span>2 Bed / 1 Bath</span>
+            </div>
+            <p>A charming cabin nestled in a hollow, ideal for small families or friends seeking a peaceful retreat.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Fireplace</span>
+              <span class="amenity-tag">WiFi</span>
+              <span class="amenity-tag">Grill</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$159 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cabin 5 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #345c18, #5a8a3e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Sunset Ridge Chalet</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 4</span>
+              <span>2 Bed / 2 Bath</span>
+            </div>
+            <p>Perched on a ridge with stunning sunset views, this modern chalet blends comfort with wilderness charm.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Fireplace</span>
+              <span class="amenity-tag">WiFi</span>
+              <span class="amenity-tag">Deck</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$179 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Cabin 6 -->
+        <article class="card animate-in">
+          <div class="card-image" style="background: linear-gradient(135deg, #1e4a0c, #3a7a1e);">
+            <div class="placeholder-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="64" height="64"><path d="M12 3L2 12h3v8h6v-5h2v5h6v-8h3L12 3zm0 3.5L18 12v7h-3v-5H9v5H6v-7l6-5.5z"/></svg></div>
+            <span class="card-badge">Pet Friendly</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="cabin-detail.html">Dogwood Den</a></h3>
+            <div class="card-meta">
+              <span>Sleeps 6</span>
+              <span>3 Bed / 2 Bath</span>
+            </div>
+            <p>A pet-friendly haven with a fenced yard, perfect for guests who want to bring their four-legged family members along.</p>
+            <div class="card-amenities">
+              <span class="amenity-tag">Hot Tub</span>
+              <span class="amenity-tag">Pet Friendly</span>
+              <span class="amenity-tag">Fenced Yard</span>
+              <span class="amenity-tag">WiFi</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">$199 <small>/ night</small></span>
+              <a href="cabin-detail.html" class="btn btn-outline btn-sm">View Details</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Can't Decide? We Can Help!</h2>
+      <p>Tell us about your ideal getaway and we'll recommend the perfect cabin for you.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary">Get a Recommendation</a>
+        <a href="faq.html" class="btn btn-secondary">View FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="logo">
+            <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 2L6 14h4l-5 8h6l-5 8h22l-5-8h6l-5-8h4L16 2zm0 4l5.5 8H18l4 6h-3l4 6H9l4-6H10l4-6h-2.5L16 6z"/></svg>
+            Shawnee Forest Cabins
+          </a>
+          <p>Your home away from home in the heart of Shawnee National Forest. Comfortable, private cabin rentals near Garden of the Gods.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="cabins.html">Our Cabins</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Guest Info</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html#policies">Policies</a></li>
+            <li><a href="faq.html#cancellation">Cancellation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Shawnee National Forest Area</li>
+            <li>Southern Illinois</li>
+            <li><a href="tel:+16185551234">(618) 555-1234</a></li>
+            <li><a href="mailto:info@shawneeforestrentalcabins.com">info@shawneeforest<wbr>rentalcabins.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Shawnee Forest Rental Cabins. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
