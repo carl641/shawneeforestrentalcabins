@@ -176,7 +176,7 @@
       btn.disabled = true;
 
       setTimeout(function () {
-        alert('Thank you for your reservation request! We will confirm your booking within 24 hours. For immediate assistance, please call (618) 555-1234.');
+        alert('Thank you for your reservation request! We will confirm your booking within 24 hours. For immediate assistance, please call (618) 771-6868.');
         btn.textContent = 'Reserve Now';
         btn.disabled = false;
       }, 1500);
