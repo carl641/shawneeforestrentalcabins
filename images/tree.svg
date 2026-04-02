@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <!-- Trunk -->
+  <rect x="88" y="200" width="24" height="80" rx="2" fill="#8B5E3C"/>
+  <rect x="92" y="200" width="6" height="80" rx="1" fill="#A0704E" opacity="0.5"/>
+
+  <!-- Tree canopy layers (bottom to top) -->
+  <polygon points="100,40 30,160 170,160" fill="#2E7D32"/>
+  <polygon points="100,80 45,175 155,175" fill="#1B5E20" opacity="0.5"/>
+  <polygon points="100,20 50,120 150,120" fill="#388E3C"/>
+  <polygon points="100,5 65,90 135,90" fill="#43A047"/>
+
+  <!-- Highlight -->
+  <polygon points="100,40 70,110 100,95" fill="#4CAF50" opacity="0.4"/>
+  <polygon points="100,5 85,55 100,45" fill="#66BB6A" opacity="0.4"/>
+</svg>
