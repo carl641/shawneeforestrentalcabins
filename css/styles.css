@@ -278,6 +278,10 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   padding: 8px;
 }
 
+.mobile-close {
+  display: none;
+}
+
 .mobile-toggle span {
   display: block;
   width: 26px;
