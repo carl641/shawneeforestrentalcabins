@@ -20,7 +20,15 @@
         "name": "What are the check-in and check-out times?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Check-in is at 4:00 PM and check-out is at 11:00 AM. Early check-in or late check-out may be available upon request."
+          "text": "Check-in is at 4:00 PM and check-out is at 11:00 AM. Early check-in or late check-out may be available upon request, subject to availability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cancellation policy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cancel up to 30 days before check-in for a full refund. Cancel between 7-30 days before check-in for a 50% refund. Cancellations less than 7 days before check-in are non-refundable."
         }
       },
       {
@@ -28,7 +36,15 @@
         "name": "Are your cabins pet-friendly?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Please contact us about our pet policy for each cabin. A pet fee may apply."
+          "text": "Some cabins are pet-friendly with prior approval. A pet fee of $50 per pet per stay applies. Pets must be disclosed at the time of booking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are parties or events allowed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Parties, events, and gatherings that exceed the listed occupancy of the cabin are strictly prohibited."
         }
       }
     ]
@@ -50,7 +66,7 @@
           <li><a href="location.html" class="nav-link">Location</a></li>
           <li><a href="activities.html" class="nav-link">Activities</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="blog.html" class="nav-link">Blog</a></li>
+
           <li><a href="faq.html" class="nav-link active">FAQ</a></li>
           <li><a href="contact.html" class="nav-link nav-book-btn">Book Now</a></li>
         </ul>
@@ -103,11 +119,33 @@
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              We accept all major credit cards (Visa, Mastercard, American Express, Discover). A 50% deposit is required at the time of booking, with the remaining balance due 14 days before check-in. All payments are processed securely.</div>
+              We accept all major credit cards (Visa, Mastercard, American Express, Discover). Full payment is required at the time of booking to confirm your reservation. All payments are processed securely.</div>
           </div>
         </div>
 
-        <h2 class="mb-4 mt-4" id="policies">Check-In &amp; Policies</h2>
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            Is there a security deposit?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes. A $200 security deposit is collected at the time of booking and is fully refundable within 14 days after checkout, provided no damage to the property is found and all house rules have been followed.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            Who can make a reservation?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              The primary guest making the reservation must be at least 25 years of age and must be present for the entire stay. A valid government-issued photo ID matching the reservation name is required.</div>
+          </div>
+        </div>
+
+        <h2 class="mb-4 mt-4" id="policies">Check-In &amp; House Rules</h2>
 
         <div class="faq-item animate-in">
           <button class="faq-question" aria-expanded="false">
@@ -116,7 +154,7 @@
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              Check-in is at 4:00 PM and check-out is at 11:00 AM. Early check-in or late check-out may be available upon request, subject to availability. We use a keyless entry system, so you can arrive at your convenience after 4 PM without needing to meet anyone.</div>
+              Check-in is at 4:00 PM and check-out is at 11:00 AM. Early check-in or late check-out may be available upon request, subject to availability. We use a self check-in system with a keyless entry code, which is sent to you the day before your arrival.</div>
           </div>
         </div>
 
@@ -131,17 +169,74 @@
           </div>
         </div>
 
-        <div class="faq-item animate-in" id="cancellation">
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            What is the maximum occupancy?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Each cabin has a posted maximum occupancy listed on its booking page. The number of guests may not exceed this limit at any time, including daytime visitors. All guests must be registered at the time of booking. Exceeding the maximum occupancy will result in immediate cancellation of your reservation without refund.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            Are parties or events allowed?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              No. Parties, events, and gatherings that exceed the listed occupancy of the cabin are strictly prohibited. This includes receptions, reunions, and any organized gathering. Violations will result in immediate termination of your stay without refund and forfeiture of your security deposit.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            Are there quiet hours?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes. Quiet hours are from 10:00 PM to 8:00 AM. During these hours, please keep noise to a minimum out of respect for neighboring properties and the natural surroundings. Excessive noise complaints may result in early termination of your stay.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            What are the checkout responsibilities?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Before checkout, we ask that guests: take out all trash and place it in the designated bins, load and start the dishwasher, strip the beds and leave linens in a pile, turn off all lights and fans, lock all doors and windows, and return the thermostat to 72&deg;F. A cleaning fee is included in your booking, so professional cleaning is not expected.</div>
+          </div>
+        </div>
+
+        <h2 class="mb-4 mt-4" id="cancellation">Cancellation &amp; Refund Policy</h2>
+
+        <div class="faq-item animate-in">
           <button class="faq-question" aria-expanded="false">
             What is the cancellation policy?
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              <strong>14+ days before check-in:</strong> Full refund minus a $25 processing fee.<br>
-              <strong>7-13 days before check-in:</strong> 50% refund.<br>
+              <strong>30+ days before check-in:</strong> Full refund of the nightly rate and cleaning fee.<br>
+              <strong>7&ndash;30 days before check-in:</strong> 50% refund of the nightly rate. Cleaning fee is fully refunded.<br>
               <strong>Less than 7 days before check-in:</strong> No refund.<br>
-              We strongly recommend travel insurance for your trip. In case of severe weather events, we will work with you on rescheduling.</div>
+              The service fee is non-refundable in all cases. We strongly recommend travel insurance for your trip. In case of severe weather events, we will work with you on rescheduling.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            What happens if something is damaged during my stay?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Please report any damage or breakage to us as soon as possible. Accidental damage will be assessed and may be deducted from your security deposit. If damage exceeds the deposit amount, you will be responsible for the additional cost. Intentional damage or damage resulting from violation of house rules may result in additional charges and loss of future booking privileges.</div>
           </div>
         </div>
 
@@ -160,12 +255,12 @@
 
         <div class="faq-item animate-in">
           <button class="faq-question" aria-expanded="false">
-            Is there cell service?
+            Is there Wi-Fi and cell service?
             <span class="icon">+</span>
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              Cell service varies by carrier, but generally AT&T and Verizon have the best coverage in the Shawnee Forest area. Some carriers may have limited service. We recommend letting loved ones know you may be off-grid during your stay.</div>
+              Wi-Fi availability varies by cabin and is noted on each listing. Cell service varies by carrier, but generally AT&T and Verizon have the best coverage in the Shawnee Forest area. Some carriers may have limited or no service. We recommend downloading any needed maps or directions before your trip.</div>
           </div>
         </div>
 
@@ -176,7 +271,7 @@
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              Please contact us about our pet policy for each cabin. A pet fee may apply, and pets must be kept off furniture. Please mention your pet when booking so we can make appropriate arrangements.</div>
+              Some cabins are pet-friendly with prior approval. A pet fee of $50 per pet per stay applies. Pets must be disclosed at the time of booking. Pets must be kept off furniture, should not be left unattended in the cabin, and owners are responsible for cleaning up after their animals on the property. Undisclosed pets will result in a $150 charge deducted from your security deposit.</div>
           </div>
         </div>
 
@@ -187,7 +282,18 @@
           </button>
           <div class="faq-answer">
             <div class="faq-answer-inner">
-              All cabins are strictly non-smoking indoors. A designated outdoor smoking area is provided. A $250 cleaning fee will be charged if evidence of indoor smoking is found.</div>
+              All cabins are strictly non-smoking indoors. This includes cigarettes, e-cigarettes, vaping devices, and candles. A designated outdoor smoking area is provided at each cabin. A $300 cleaning fee will be charged if evidence of indoor smoking is found, deducted from your security deposit.</div>
+          </div>
+        </div>
+
+        <div class="faq-item animate-in">
+          <button class="faq-question" aria-expanded="false">
+            Is there parking at the cabins?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes. Free on-site parking is available at each cabin. Parking is limited to 2 vehicles per reservation. Additional vehicles must be approved in advance. Please do not park on the grass or block access roads.</div>
           </div>
         </div>
 
@@ -259,7 +365,7 @@
             <li><a href="location.html">Location</a></li>
             <li><a href="activities.html">Activities</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
+
           </ul>
         </div>
         <div class="footer-col">
