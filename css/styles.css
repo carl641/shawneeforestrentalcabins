@@ -216,6 +216,19 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 32px;
 }
 
+.logo i {
+  font-size: 1.6rem;
+  color: var(--color-accent);
+}
+
+.site-header.transparent .logo i {
+  color: var(--color-accent-light);
+}
+
+.footer-about .logo i {
+  color: var(--color-accent-light);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -528,6 +541,11 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 28px;
 }
 
+.feature-icon i {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
 .feature-item h3 {
   margin-bottom: 8px;
   font-size: 1.2rem;
@@ -783,6 +801,11 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   gap: 6px;
 }
 
+.cabin-info .cabin-specs i {
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
 .cabin-description {
   margin-bottom: 32px;
   line-height: 1.8;
@@ -810,6 +833,14 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 18px;
   color: var(--color-primary);
   flex-shrink: 0;
+}
+
+.amenity-item i {
+  font-size: 1rem;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 18px;
+  text-align: center;
 }
 
 /* Booking Sidebar */
@@ -949,6 +980,11 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 24px;
 }
 
+.attraction-icon i {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
 .attraction-card h3 {
   font-size: 1.1rem;
   margin-bottom: 6px;
@@ -999,6 +1035,24 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   opacity: 0.5;
 }
 
+.activity-icon {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  align-self: flex-start;
+}
+
+.activity-icon i {
+  font-size: 2rem;
+  line-height: 1;
+}
+
 .activity-content h3 {
   margin-bottom: 8px;
 }
@@ -1033,6 +1087,7 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
 .about-image {
   border-radius: var(--radius-lg);
   overflow: hidden;
+  opacity: 1;
 }
 
 .about-image img {
@@ -1040,6 +1095,7 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 100%;
   object-fit: cover;
   border-radius: var(--radius-lg);
+  opacity: 1;
 }
 
 .about-text h2 {
@@ -1284,6 +1340,11 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   height: 20px;
 }
 
+.contact-detail-icon i {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
 .contact-detail h4 {
   font-family: var(--font-body);
   font-size: 0.9rem;
@@ -1323,6 +1384,10 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
 .social-link svg {
   width: 20px;
   height: 20px;
+}
+
+.social-link i {
+  font-size: 1.2rem;
 }
 
 /* ===== Footer ===== */
