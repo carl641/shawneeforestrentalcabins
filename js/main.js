@@ -7,17 +7,10 @@
   // ===== Mobile Navigation =====
   const mobileToggle = document.getElementById('mobile-toggle');
   const navLinks = document.getElementById('nav-links');
-  const navClose = document.getElementById('nav-close');
 
   if (mobileToggle && navLinks) {
     mobileToggle.addEventListener('click', function () {
       navLinks.classList.toggle('open');
-    });
-  }
-
-  if (navClose && navLinks) {
-    navClose.addEventListener('click', function () {
-      navLinks.classList.remove('open');
     });
   }
 

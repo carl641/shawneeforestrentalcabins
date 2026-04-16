@@ -278,10 +278,6 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   padding: 8px;
 }
 
-.mobile-close {
-  display: none;
-}
-
 .mobile-toggle span {
   display: block;
   width: 26px;
@@ -1464,22 +1460,6 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
   .mobile-toggle {
     display: flex;
     z-index: 1001;
-  }
-
-  .mobile-close {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: var(--color-text);
-    cursor: pointer;
-    display: none;
-  }
-
-  .nav-links.open .mobile-close {
-    display: block;
   }
 
   .hero-content {
