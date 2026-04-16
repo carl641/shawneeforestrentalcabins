@@ -156,30 +156,4 @@
     });
   }
 
-  // ===== Set minimum dates on date inputs =====
-  var dateInputs = document.querySelectorAll('input[type="date"]');
-  if (dateInputs.length > 0) {
-    var today = new Date().toISOString().split('T')[0];
-    dateInputs.forEach(function (input) {
-      input.setAttribute('min', today);
-    });
-  }
-
-  // ===== Booking Form Handler =====
-  var bookingForms = document.querySelectorAll('.booking-form');
-
-  bookingForms.forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var btn = this.querySelector('button[type="submit"]');
-      btn.textContent = 'Processing...';
-      btn.disabled = true;
-
-      setTimeout(function () {
-        alert('Thank you for your reservation request! We will confirm your booking within 24 hours. For immediate assistance, please call (618) 771-6868.');
-        btn.textContent = 'Reserve Now';
-        btn.disabled = false;
-      }, 1500);
-    });
-  });
 })();
