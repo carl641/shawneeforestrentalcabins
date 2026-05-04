@@ -747,6 +747,21 @@ h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
 }
 
 /* ===== Cabin Detail ===== */
+.cabin-feature-image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 40px;
+  background: #f0f0f0;
+}
+
+.cabin-feature-image img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
 .cabin-gallery {
   display: grid;
   grid-template-columns: 2fr 1fr;
